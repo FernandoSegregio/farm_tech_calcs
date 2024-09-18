@@ -1,0 +1,25 @@
+# Cria um objeto chamado quantis_areas que irá armazenar o resultado do cálculo dos quantis
+# É uma variável que conterá os valores dos quartis da variável areas
+quantis_areas <- quantile(areas, probs = c(0.25, 0.5, 0.75))
+ 
+# A função quantile calcula os quantis para a variável areas
+# areas: vetor ou conjunto de dados numéricos para o qual você deseja calcular os quantis
+# probs = c(0.25, 0.5, 0.75): argumento que especifica os quantis que serão calculados
+# 0.25: primeiro quartil (Q1) - 25% dos dados são menores ou iguais a este valor
+# 0.5: segundo quartil (Q2) - mediana; 50% dos dados são menores ou iguais a este valor
+# 0.75: terceiro quartil (Q3) - 75% dos dados são menores ou iguais a este valor
+ 
+# Exibe uma mensagem para indicar o que será mostrado
+print("Quartis das áreas:")
+ 
+quantis_areas <- quantile(areas, probs = c(0.25, 0.5, 0.75)): Esteareasequantis_areas.
+print("Quartis das áreas:"):
+print(quantis_areas): Diabrete
+ 
+# Imprime os valores dos quantis calculados e armazenados em quantis_areas
+print(quantis_areas)
+
+quantis_areas <- quantile(areas, probs = c(0.25, 0.5, 0.75)): Esteareas equantis_areas.
+print("Quartis das áreas:"):
+print(quantis_areas): Imp
+ 
